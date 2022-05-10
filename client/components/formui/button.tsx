@@ -5,7 +5,7 @@ const Button = ({ text, link }: LinkedButton) => {
   return (
     <button>
       <Link href={link}>
-        <a className="bg-alternative text-primary rounded-2xl hover:border-2 hover:bg-primary hover:border-alternative hover:text-alternative py-2 px-6 duration-100">
+        <a className="bg-alternative text-primary rounded-2xl hover:ring-2 hover:bg-primary hover:ring-alternative hover:text-alternative py-2 px-6 duration-100">
           {text}
         </a>
       </Link>

@@ -23,7 +23,7 @@ const Header = () => {
         </div>
         <div
           onClick={() => setOpen(!open)}
-          className="absolute right-10 top-6   md:hidden "
+          className="absolute right-10 top-6 md:hidden "
         >
           <img
             src={open ? "icons/close.svg" : "icons/menu.svg"}
@@ -53,7 +53,7 @@ const Header = () => {
             );
           })}
           <div className="md:ml-8 md:pt-0 pt-4">
-            <Button text={"Login"} link="/login" />
+            <Button text="Login" link="/login" />
           </div>
         </ul>
       </div>

@@ -1,13 +1,13 @@
 import { FieldProps } from "formik"
 import React, { DetailedHTMLProps, InputHTMLAttributes } from "react"
-type inputProps = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>; 
+type InputProps = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>; 
 
 
-export const inputField = ({
+export const InputField = ({
     field,
     form: _,
     ...props
-}: FieldProps & inputProps) => {
+}: FieldProps & InputProps) => {
     return (
         <input {...field} {...props}/>
     )

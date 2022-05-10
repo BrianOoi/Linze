@@ -1,6 +1,6 @@
-import Link from "next/link";
-import Button from "../../components/formui/button";
-import Button2 from "../../components/formui/button2";
+import Link from 'next/link';
+import Button from '../../components/formui/button';
+import Button2 from '../../components/formui/button2';
 
 const Login = () => {
   return (
@@ -59,7 +59,6 @@ const Login = () => {
           </div>
         </div>
         <div className="w-2/5 p-5 bg-alternative rounded-tr-2xl rounded-br-2xl py-36 px-12">
-          {" "}
           {/*HÖGER SIDA*/}
           <h2 className="text-3xl border-b-2 inline-block border-primary text-primary mb-2">
             <b>Hello friend!</b>
@@ -67,7 +66,7 @@ const Login = () => {
           <p className="text-primary mb-6">
             <i>Start your journey with us</i>
           </p>
-          <div>
+          <div className="py-4">
             <Button2 text="Sign up with Google" link="/" />
           </div>
         </div>
